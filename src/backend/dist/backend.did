@@ -1,0 +1,26 @@
+type Feedback = 
+ record {
+   message: text;
+   name: text;
+   timestamp: int;
+ };
+type ContactInfo = 
+ record {
+   address: text;
+   email: text;
+   name: text;
+   phone: text;
+ };
+service : {
+  getAllFeedback: () -> (vec Feedback) query;
+  getAllLeads: () -> (vec ContactInfo) query;
+  getStats: () ->
+   (record {
+      finesSaved: nat;
+      incomeGenerated: nat;
+      users: nat;
+      wasteRecycled: nat;
+    }) query;
+  submitFeedback: (name: text, message: text, timestamp: int) -> (bool);
+  submitLead: (name: text, email: text, phone: text, address: text) -> (bool);
+}

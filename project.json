@@ -1,0 +1,22 @@
+{
+  "overview": "A premium documentary-style counter-report website defending Dhruv Rathee with 5 fully sourced arguments, evidence metrics, and an interactive sources library.",
+  "features": [
+    "Cinematic hero with GSAP animations and particle background",
+    "5 fully sourced counter-arguments with accusation and evidence blocks",
+    "Animated evidence metrics with countUp and timeline",
+    "Interactive sources library with category filters",
+    "Custom cursor, progress bar, and scroll-triggered animations",
+    "Fully responsive from 320px to 2560px",
+    "Mobile hamburger menu with full-screen overlay"
+  ],
+  "category": "documentary-website",
+  "tags": [
+    "documentary",
+    "journalism",
+    "counter-report",
+    "single-page",
+    "gsap",
+    "vanilla-js"
+  ],
+  "last_updated": "2026-05-29T16:57:49.417Z"
+}
